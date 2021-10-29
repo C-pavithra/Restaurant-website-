@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<style>
+    article.header {
+  background-color:black;
+  color:white;
+  border:2px solid black;
+  border-radius: 50px;
+  box-shadow:5px 10px grey;
+  text-shadow: 4px 4px grey;
+  text-align: center;
+  padding: 20px;
+}
+    div.fixed{
+        position:fixed;
+        bottom: 0%;
+        right:0%;
+        border-radius: 25px;
+        border: 2px solid black;
+    }
+    .column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+aside {
+    display: block;
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15%px;
+    float: right;
+    font-style: italic;
+    background-color: black;
+    color:white;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+}
+section.test {
+  white-space: nowrap; 
+  width: 200px; 
+  overflow: hidden; 
+}
+
+section.test:hover {
+  overflow: visible;
+}
+#grad1 {
+
+  height: 200px;
+  background-color: red;
+  background-image: linear-gradient(black, red);
+  font-size:28;
+  font-weight: bolder;
+}
+img {
+            width: 100%;
+            height: 500px;
+        }
+</style>
+  <!--navigation-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+<article class="header">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!--display heading-->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script> -->
+    <h1>THE CHETTINAD RESTAURANT</h1><br/>
+    <h2>Authentisk Sorindisk Mat </h2>
+</article>
+    <title>the chettinad restaurant</title>
+</head>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="login.html">LOGIN</a>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end"   id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="home1.html">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">MENU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sign up form.html">RESERVATION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="delivery.html">DELIVERY</a>
+          </li>
+                                                   
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+
+</nav>
+<br/>
+<div id="sd" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+      <button type="button" data-bs-target="#sd" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#sd" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#sd" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="pic1.html" alt="Los Angeles">
+          <div class="carousel-caption">
+              <h3>welocome to chettinad</h3>
+            </div> 
+      </div>
+      <div class="carousel-item">
+          <img src="about1.html" alt="Chicago">
+          <div class="carousel-caption">
+              <h3>about of chettinad</h3>
+            </div> 
+      </div>
+      <div class="carousel-item">
+          <img src="delivery1.html" alt="New York">
+          <div class="carousel-caption">
+              <h3>New delivery</h3>
+            </div> 
+      </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#sd" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#sd" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<div class="container-fluid mt-3">
+  <h3>Carousel Example</h3>
+  <p>The following example shows how to create a basic carousel with indicators and controls.</p>
+</div>
+<div class="container-fluid">
+  <img src="home.html" class="img-fluid">
+</div>
+ <center><div2 id=grad1>WELCOME TO CHETTINAD RESTAURANT</div2></center>
+
+<section class="test" style="text-overflow:ellipsis;">
+<h1><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ULTIMATE DINING EXPERIENCE LIKE NO OTHER</b></h1>
+</section>
+<body>
+  <div class="container-fluid">  
+    <div1 class="row">
+        <div1 class="column" style="background-color:white;"> 
+        <h4><b>EATING MEANS TO CELEBRATE AND TO BRING PEOPLE TOGETHER</b></h4>
+           <p1>The very utterance of the word 'Chettinad' stirs our palate, and we smell an aroma out of the blue, mixed in the air, our mind recalls the once tasted Chettinad food.</p1><br/> 
+            <p2>From time immemorial this traditionally and historically known region is noted for its cuisine, agriculture and architect.</p2><br/>
+            </div1>   
+        <div1 class="column" style="background-color:white;">
+          <img src="pic1.html" class="img-fluid"></a>
+        </div1>
+    </div1>
+  </div>
+   
+   
+
+</body>
+<aside>
+    <a href="review.html" target="_blank">REVIEW &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+    <a href="sign up form.html" target="_blank">RESERVATION &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+    <a href="contact.html" target="_blank">CONTACT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br></html>
+</aside>
+<h2><i>About</i></h2>
+<h1><b>THE AUTHENTIC INDIAN RESTAURANT</b></h1>
+<div1 class="row">
+    <div1 class="column" style="background-color:white;">
+        <p1>The main thing about the authentic restaurant is that it refuses to be put into a box. </p1><br />
+        <p2> And that’s the thing about the food at “The Chettinad” as well. </p2><br />
+        <p3> Young and fun, yet rooted in traditions that span the length and breadth of this country, with all its
+            varied topographies and cultures and histories. </p3><br />
+        <p4> The experience at the “The Chettinad” is a party, as well as, a bit of a history lesson.</p4><br />
+        <p5>Of all the aspects of Chettinad, the most outstanding feature is the cuisine.</p5><br />
+        <p6>No restaurant would miss out on Chettinad Chicken on its menu and its rich, spicy taste gratifies the
+            Indian's and the Norwegian's palette to a greater extent.</p6><br />
+        <p7>The popular, appetizing Chettinad dishes include Pepper Chicken and Varuval. </p7><br />
+        <p8> The speciality of the masala made by using sundried assortments pounded on pestles provides earthy
+            flavour. And the restaurant is known to change things up.</p8><br/>
+        <p9>The service deserves special applause – the staff here are warm and friendly, they really know the menu, and they
+    </div1>
+    <div1 class="column" style="background-color:white;">
+        <p1>The Chettinad is one of Oslo, in fact, Norway’s most prized restaurants.</p1><br />
+        <p2>The expert chef’s crafts Indian dishes so that they retain their original charm but also have a touch of
+            both modernity and culture. Known for its Butter Chicken, melt-in-your-mouth Naans, delicious dals and
+            exquisitely plated, inventive desserts,</p2><br />
+        <p3>The Chettinad is the place to be for dinner to remember. For starters, the Veg Kuruma, Palak Paneer is a
+            favourite, as is its meaty counterpart, the Lamb Seekh Kebab.</p3><br />
+        <p4>Special Mix Grill, Prawns tikka, are a few other incredible delicacies on the menu. Oh, and don’t miss
+            the popular, appetizing Chettinad dishes include pepper chicken and varuval, the special Chettinad Menu.
+        </p4><br />
+        <p5>When it's all done, you'd have some space for a glass of sparkling wine.</p5><br />
+        <p6>We are on a mission in bringing Oslo diners a range of decidedly authentic ingredients. The Chettinad is
+            a space that encourages experimentation and innovation in the kitchen.</p6><br />
+        <p7>The food at Chettinad showcases regional, often well-known, ingredients in exciting same authentic old
+            ways.</p7><br />
+            <a href="about.html" target="_self">KNOW MORE</a>
+     </div1>
+</div1>
+<div class="container-fluid"> 
+  <img src="bg_back.html" class="img-fluid"style="float:left">
+  </div>
+<h1><b>CHETTINAD SPECIALS</b></h1>
+<div class="container-fluid">  
+<div1 class="row">
+    <div1 class="column" style="background-color:white;">
+      <img src="delivery1.html" class="img-fluid"style="float:left">
+    </div1>
+    <div1 class="column" style="background-color:white;">
+       <p1><b>CHETTINADU VEG CURRY</b> </p1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;199Rs<br/>
+       <p2>Delicately spiced fresh garden Vegetables</p2><br/>
+       <p3>including Potatoes, Carrots, Beans, Cauliflower and nuts in a mild curry sauce.</p3><br/><br/>
+       <p1><b>CHETTINADU CHICKEN MASALA</b> </p1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;219Rs<br/>
+<p2>A rich Chicken curry from the Chettinadu</p2><br/>
+<p3>featuring a blend of individually roasted spices with a hint of Coconut.</p3><br/><br/>
+<a href="menu.html" target="_self">VIEW MENU&nbsp;&nbsp;</a>
+ </div1>
+</div1> 
+</div>
+<footer>
+    <a href="follow us.html" target="_self">follow&nbsp;&nbsp;</a><br/>
+    <p><a href="mailto:info@chettinad.no">mail us</a><br/>
+    <a href="  chettinad.no"></a></br>
+    <p1>+47 93473377</p1><br/>
+    <p2>&copy;The Chettinad. All Rights Reserved</p2>
+</footer>
+<div class="fixed">
+    <img src="message.html" style="width:80px;height:70px">
+</div>
+<p id="bottom"></p>
+<a href="#top">
+    top  page    
+</html>
